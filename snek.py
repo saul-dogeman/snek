@@ -134,7 +134,7 @@ while not collision:
             sys.exit(0)
 
     # things
-
+  
     pygame.draw.rect(mainscreen, main_grey, pygame.Rect(left_wall, 10, 960, 960))
     pygame.draw.rect(mainscreen, black, pygame.Rect(left_wall, 950, 960, 10))
     # pygame.draw.rect(mainscreen, black, pygame.Rect(0, 1280, 960, 10))
@@ -147,24 +147,6 @@ while not collision:
     ev_sprites.draw(mainscreen)
     pygame.display.flip()
 
-    # controls
-    # snake move
-    # Checking inputs
-
 # pygame.display.update()
 # pygame.display.flip()
 
-
-# tic rate
-#
-# elif pygame.key.get_pressed()[pygame.K_d]:
-#             snek.x += 1
-# elif pygame.key.get_pressed()[pygame.K_d]:
-#             snek.x += 1
-
-
-# colors
-
-# events
-
-# collisions
